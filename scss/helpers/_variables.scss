@@ -1,5 +1,22 @@
 
-// Yep
+// ----------- Variable Rules  ----------- //
+
+// use !default to definte any variable so that anyonce can overwrite it. 
+// $baseline: 1em !default;
+// // Developer’s own variable
+// $baseline: 2em;
+
+// Your library declaring `$baseline`
+// @import 'your-library';
+
+// $baseline == 2em;
+
+
+// ----------- Breakpoints  ----------- //
+
+// breakpoint variables : you can add more as necessary
+// we'll go mobile first as much as possible.
+
 $breakpoints: (
   'medium': (min-width: 800px),
   'large': (min-width: 1000px),
