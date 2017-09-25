@@ -1,0 +1,25 @@
+{
+  "name": "flash-sass",
+  "version": "1.0.0",
+  "description": "An example SASS build structure sample to start a project with a design system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/designcrumble/flash-sass.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/designcrumble/flash-sass/issues"
+  },
+  "homepage": "https://github.com/designcrumble/flash-sass#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
