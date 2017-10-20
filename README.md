@@ -60,6 +60,48 @@ SASS Directories
   - Avoid using IDs throughout the site. Use IDs for parent elements. Example: Header, Footer, Main. Using Classes avoids having to use !important 
   - Be generous with commenting
   - If a ```:hover``` pseudo class is styled, ```:focus``` should also be styled for accessibility.
+  ## CSS
+
+### Formatting
+
+* Use soft tabs (2 spaces) for indentation
+* Prefer dashes over camelCasing in class names.
+  - Underscores and PascalCasing are okay if you are using BEM (see [OOCSS and BEM](#oocss-and-bem) below).
+* Do not use ID selectors
+* When using multiple selectors in a rule declaration, give each selector its own line.
+* Put a space before the opening brace `{` in rule declarations
+* In properties, put a space after, but not before, the `:` character.
+* Put closing braces `}` of rule declarations on a new line
+* Put blank lines between rule declarations
+
+**Bad**
+
+```css
+.avatar{
+    border-radius:50%;
+    border:2px solid white; }
+.no, .nope, .not_good {
+    // ...
+}
+#lol-no {
+  // ...
+}
+```
+
+**Good**
+
+```css
+.avatar {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.one,
+.selector,
+.per-line {
+  // ...
+}
+```
 
 ## Commenting
   - Using "// " for your comments in SASS and they will not output in the compiled CSS
